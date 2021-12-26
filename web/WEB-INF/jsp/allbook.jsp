@@ -9,8 +9,17 @@
 <html>
 <head>
     <title>书籍展示</title>
+    <%--bootstrop美化页面--%>
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap-grid.css" rel="stylesheet">
 </head>
 <body>
+<div class="container">
+    <div>
+
+    </div>
+
+</div>
 <h1>书籍展示</h1>
+
 </body>
 </html>

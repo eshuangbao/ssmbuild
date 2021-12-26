@@ -7,7 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springStudy-08-servlet" />
         <module name="ssmbuild" />
+        <module name="springStudy-09-springmvcAnnotation" />
+        <module name="springStudy-07-springmvc" />
+        <module name="Mybatis-02" />
+        <module name="springStudy-04-AOP" />
+        <module name="Mybatis-01" />
+        <module name="springStudy-11-Interceptor" />
+        <module name="springStudy-10-springMvcRestful" />
+        <module name="springStudy-01" />
+        <module name="springStudy-02" />
+        <module name="springStudy-03" />
+        <module name="springStudy-05-mybatis" />
       </profile>
     </annotationProcessing>
   </component>
