@@ -16,9 +16,12 @@ public interface Bookservice {
     //删除
     int deletebook(int id);
     //更新
-    int updatebook(int id);
+    int updatebook(Books books);
+
     //查询
     Books querybookByID(int id);
+
+    Books querybookByName(String id);
     //查询全部
     List<Books> queryAllbook();
 }

@@ -11,9 +11,12 @@ public interface BookMapper {
     //删除
     int deletebook(@Param("bookid") int id);
     //更新
-    int updatebook(int id);
+    int updatebook(Books books);
     //查询
     Books querybookByID(@Param("bookid") int id);
+    //查询
+    Books querybookByName(@Param("bookName") String bookName);
     //查询全部
     List<Books> queryAllbook();
+
 }

@@ -16,9 +16,13 @@
     <update id="updatebook" parameterType="books">
         update wechat.books set bookName = #{bookName},
         bookCounts = #{bookCounts},detail =#{detail}
+        where bookId = #{bookID}
     </update>
     <select id="querybookByID" parameterType="int" resultType="books">
         select * from wechat.books where bookID = #{bookid}
+    </select>
+    <select id="querybookByName" parameterType="string" resultType="books">
+        select * from wechat.books where bookname = #{bookName}
     </select>
     <select id="queryAllbook"  resultType="books">
         select * from wechat.books

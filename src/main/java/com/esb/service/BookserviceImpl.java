@@ -32,13 +32,18 @@ public class BookserviceImpl implements Bookservice {
     }
 
     @Override
-    public int updatebook(int id) {
-        return bookMapper.updatebook(id);
+    public int updatebook(Books books) {
+        return bookMapper.updatebook(books);
     }
 
     @Override
     public Books querybookByID(int id) {
         return bookMapper.querybookByID(id);
+    }
+
+    @Override
+    public Books querybookByName(String bookname) {
+        return bookMapper.querybookByName(bookname);
     }
 
     @Override
